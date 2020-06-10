@@ -1,0 +1,140 @@
+html{
+   scroll-behavior: smooth;
+}
+.section{
+    height: 800px;
+}
+#navigation{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+#nav-list{
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-list li,a{
+    visibility: visible;
+    font-weight: bolder;
+    opacity: 1;
+    padding-right: 15px;
+    font-size: 20px;
+    color: rgb(255, 136, 0);
+    
+    
+}
+
+
+#intro{
+    background-image: url(./Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    color:rgba(236, 236, 236, 0.986);
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 1px 1px;
+    font-style: italic;
+}
+
+.flex-layout{
+    
+    padding: 50px 150px;
+    display: flex;
+    
+    
+}
+#about{
+    padding-top: 150px;
+}
+.flex-right{
+    padding:10px 20px;
+    font-style: italic;
+}
+
+.icon{
+    
+    font-size: 30px;
+    margin: 0px 10px;
+}
+.center{
+    text-align: center;
+}
+#project{
+    justify-content: center;
+    background-color: rgba(247, 245, 245, 0.979);
+    padding: 80px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.project-item{
+    background-color: white;
+    box-shadow: 5px 5px 10px;
+    margin:  15px;
+    padding: 10px 0px 10px 0px;
+}
+.pro-sub{
+    padding: 10px 20px;
+}
+.btn{
+    margin: 1px 5px;
+}
+
+ .skills-list{
+     display: flex;
+     
+     justify-content: center;
+     margin: 10px;
+ }
+ .skills-item{
+    padding: 15px;
+ }
+ .myskills{
+    justify-content: center;
+ }
+ #skill{
+     padding-top: 50px;
+     height: 1100px;
+    
+ }
+ .progress{
+    
+     border-radius: 20px !important;
+     height: 10px !important;
+ }
+
+ .experience{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 25px;
+   
+
+ }
+ .exp-list{
+     margin: 10px;
+    padding-right: 15px;
+    
+ }
+ #exp{
+     background-color: rgba(247, 245, 245, 0.979);
+     padding: 100px 150px;
+ }
+ .font{
+     font-weight: bolder;
+     font-style: italic;
+ }
